@@ -1,5 +1,9 @@
 # Haofeifan Tech Video Studio
 
+[![Validate](https://github.com/haofeifan2026-hue/haofeifan-tech-video-studio/actions/workflows/validate.yml/badge.svg)](https://github.com/haofeifan2026-hue/haofeifan-tech-video-studio/actions/workflows/validate.yml)
+[![Version](https://img.shields.io/badge/version-1.0.0-35d0aa.svg)](https://github.com/haofeifan2026-hue/haofeifan-tech-video-studio/releases/tag/v1.0.0)
+[![License: MIT](https://img.shields.io/badge/license-MIT-f5b948.svg)](LICENSE)
+
 一套面向 Codex 的开源科技口播剪辑 Skill。它把素材盘点、语义粗剪、字幕、内容补画、科技感包装、BGM、真人封面和质量验收整理成一条可重复、可升级的制作流程。
 
 The project is a reusable Codex skill for polished, human-first technology talking-head videos.
@@ -29,6 +33,8 @@ The project is a reusable Codex skill for polished, human-first technology talki
 需要 Codex 桌面端或支持本地 Skills 的 Codex 环境。克隆本仓库后执行：
 
 ```bash
+git clone https://github.com/haofeifan2026-hue/haofeifan-tech-video-studio.git
+cd haofeifan-tech-video-studio
 ./scripts/install.sh
 ```
 
