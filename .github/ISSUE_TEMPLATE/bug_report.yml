@@ -1,0 +1,30 @@
+name: Workflow bug
+description: Report a reproducible editing or validation problem
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: trigger
+    attributes:
+      label: Trigger and source type
+      description: Describe the request, media type, editing stage and relevant tool.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Verification evidence
+      description: Include sanitized logs or structure. Do not upload private footage, transcripts, tokens or project IDs.

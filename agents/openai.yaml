@@ -1,0 +1,6 @@
+interface:
+  display_name: "郝非凡科技感剪辑"
+  short_description: "真人优先的科技视频全流程制作"
+  default_prompt: "用 $haofeifan-tech-video-studio 完成素材分析、口播剪辑、字幕、内容补画、科技感包装、音频、封面和逐帧验收；已有时间线继续制作，新视觉版本先复制时间线，保持真人和口播观点优先。"
+policy:
+  allow_implicit_invocation: true
